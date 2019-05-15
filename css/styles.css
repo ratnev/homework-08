@@ -1,0 +1,366 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* top section */
+.page-top {
+    min-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    padding-top: 20px;
+    padding-bottom: 138px;
+    background-color: #1a1915;
+    background-image: url('../img/mobile/head.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    width: 280px;
+    margin: 0 auto;
+}
+
+/* header */
+.page-header {
+    width: 180px;
+    height: 172px;
+    margin: 0 auto;
+    margin-bottom: 34px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    position: relative;
+}
+
+.page-logo-head {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+}
+
+.login, .signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+}
+
+.login {
+    right: 90px;
+}
+
+.signup {
+    right: 0;
+}
+
+.login:hover {
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.signup:hover {
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.log-in, .sign-up {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* top banner section */
+.page-top-banner {
+    text-align: center;
+}
+
+.h2-banner {
+    margin-bottom: 16px;
+}
+
+.page-banner-text {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.page-banner-lorem {
+    width: 208px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.banner-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 40px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+}
+
+.page-banner-link {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* partner section */
+.partner-section {
+    min-width: 320px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.partners {
+    padding-bottom: 56px;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.partner-head {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.partner-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.partner-list li {
+    width: 238px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.partner-list li:last-child {
+    margin-bottom: 0;
+}
+
+.partner-photos-1 {
+    width: 124px;
+    height: 124px;
+    background-image: url('../img/mobile/partners/p1.png');
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.partner-photos-2 {
+    width: 124px;
+    height: 124px;
+    background-image: url('../img/mobile/partners/2.png');
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.partner-photos-3 {
+    width: 124px;
+    height: 124px;
+    background-image: url('../img/mobile/partners/3.png');
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.partner-photos-4 {
+    width: 124px;
+    height: 124px;
+    background-image: url('../img/mobile/partners/4.png');
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.photos-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.partner-name {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.partner-about-container {
+    width: 194px;
+}
+
+.3rd {
+    width: 210px;
+}
+
+.partner-about {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    color: #666666;
+    text-align: center;
+    margin: 0;
+}
+
+.bottom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 40px;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+}
+
+.bottom-link {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff4e50;
+    text-decoration: none;
+}
+
+@media(min-width: 768px) {
+    .page-top {
+        padding-top: 38px;
+        padding-bottom: 234px;
+        background-color: #1a1915;
+        background-image: url('../img/tablet/head.png');
+    }
+    .wrapper {
+        width: 750px;
+    }
+    .page-header {
+        width: 750px;
+        height: 40px;
+        margin-bottom: 138px;
+        flex-wrap: wrap;
+    }
+    .page-logo-head {
+        top: 8px;
+        left: 40px;
+    }
+    .login {
+        right: 130px;
+    }
+    .signup {
+        right: 40px;
+    }
+    .h2-banner {
+        width: 492px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .page-banner-text {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .page-banner-lorem {
+        width: 404px;
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+    .banner-button {
+        width: 226px;
+        margin: 0 auto;
+    }
+    .partners {
+        width: 494px;
+        padding-bottom: 40px;
+    }
+    .partner-head {
+        margin-bottom: 32px;
+    }
+    .partner-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: unset;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+    .partner-list li:nth-child(even) {
+        margin-bottom: 0;
+    }
+    .order1 {
+        order: 2;
+    }
+    .order3 {
+        order: 3;
+    }
+    .bottom-button {
+        width: 192px;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 1440px) {
+    .page-top {
+        background-image: url('../img/desktop/head.png');
+    }
+    .wrapper {
+        width: 940px;
+    }
+    .page-header {
+        width: 940px;
+    }
+    .page-logo-head {
+        left: 18px;
+    }
+    .login {
+        right: 90px;
+    }
+    .signup {
+        right: 0;
+    }
+    .partners {
+        width: 942px;
+    }
+    .partner-list {
+        flex-wrap: nowrap;
+    }
+    .partner-list li {
+        margin-bottom: 0;
+    }
+    .order1 {
+        order: 0;
+    }
+    .order3 {
+        order: 1;
+    }
+}
