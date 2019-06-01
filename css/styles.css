@@ -45,11 +45,6 @@ img {
 }
 
 .login, .signup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90px;
-    height: 36px;
     position: absolute;
     top: 0;
 }
@@ -62,22 +57,23 @@ img {
     right: 0;
 }
 
-.login:hover {
-    border: 2px solid white;
-    border-radius: 40px;
-}
-
-.signup:hover {
-    border: 2px solid white;
-    border-radius: 40px;
-}
-
-.log-in, .sign-up {
+.header-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 36px;
     font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 700;
     color: #ffffff;
     text-decoration: none;
+    border: 2px solid transparent;
+}
+
+.header-link:hover {
+    border: 2px solid white;
+    border-radius: 40px;   
 }
 
 /* top banner section */
@@ -329,7 +325,7 @@ img {
     }
 }
 
-@media(min-width: 1440px) {
+@media(min-width: 940px) {
     .page-top {
         background-image: url('../img/desktop/head.png');
     }
